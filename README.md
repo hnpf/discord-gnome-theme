@@ -16,15 +16,11 @@ A GNOME theme for Discord, following the Adwaita style & GNOME Human Interface G
 
    You can still use something else like BetterDiscord - the theme will work but without the usual GNOME headerbar and with BetterDiscord content unthemed.
 
-2. Install [Discord Adblock][adblock]
-
-   Removes Nitro elements, as they will look out of place.
-
-3. Settings > Language > Choose "English (US)"
+2. Settings > Language > Choose "English (US)"
 
    This allows for custom icons due to how they are identified in Discord. You may [localize][css-icons] the theme, but read the localization note.
 
-4. Settings > Plugins > Enable "ThemeAttributes"
+3. Settings > Plugins > Enable "ThemeAttributes"
 
    This allows for icons in the server settings modal. Optional, does not affect user settings.
 
@@ -36,7 +32,7 @@ Copy the following into the text box located in Settings > Themes > Online Theme
 https://raw.githubusercontent.com/hnpf/discord-gnome-theme/master/Discourse.theme.css
 ```
 
-If you'd like to configure it, put [Discourse.theme.css][css-main] in `~/.config/vesktop/themes`. It is NOT updated automatically.
+For local installation, put [Discourse.theme.css][css-main] in `~/.config/vesktop/themes`. It will **auto-update**. the compiled CSS is fetched live from the `dist` branch on each load.
 
 ## Configuration
 
@@ -85,7 +81,6 @@ Settings used for the screenshot were: radius - 100, brightness - 1.00.
 
   Exceptions — anything accessible with the FakeNitro plugin; it does support nitro themes after all.
 
-[adblock]: https://codeberg.org/ridge/Discord-AdBlock
 [css-icons]: ./src/global/icons.scss
 [css-main]: ./Discourse.theme.css
 [ext-blur-my-shell]: https://github.com/aunetx/blur-my-shell
