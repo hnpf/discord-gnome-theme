@@ -36,7 +36,8 @@ For local installation, put [Discourse.theme.css][css-main] in `~/.config/veskto
 
 ## Configuration
 
-### [Emoji Replace][emoji-replace] allows you to replace discord's with emojis from a different provider (eg. apple, google, facebook...)
+### Emoji replace
+[Emoji Replace][emoji-replace] allows you to replace discord's with emojis from a different provider (eg. apple, google, facebook...)
 1. Simply edit Discourse.theme.css
 2. Follow instructions for changing default emoji provider.
 3. That's it! 
