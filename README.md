@@ -1,6 +1,6 @@
-# Discord GNOME Theme
+# Discourse
 
-A GNOME theme for Discord, following the Adwaita style & GNOME Human Interface Guidelines (with whatever the Discord CSS lets me do).
+A GNOME theme for Discord, following the Adwaita style & GNOME Human Interface Guidelines (with whatever the Discord CSS allows).
 
 <picture>
 	<source srcset="assets/preview/theme-dark.png" media="(prefers-color-scheme: dark)">
@@ -33,10 +33,10 @@ A GNOME theme for Discord, following the Adwaita style & GNOME Human Interface G
 Copy the following into the text box located in Settings > Themes > Online Themes:
 
 ```
-https://raw.githubusercontent.com/ricewind012/discord-gnome-theme/master/gnome.theme.css
+https://raw.githubusercontent.com/hnpf/discord-gnome-theme/master/Discourse.theme.css
 ```
 
-If you'd like to configure it, put [gnome.theme.css][css-main] in `~/.config/vesktop/themes`. It's still updated automatically.
+If you'd like to configure it, put [Discourse.theme.css][css-main] in `~/.config/vesktop/themes`. It is NOT updated automatically.
 
 ## Configuration
 
@@ -87,6 +87,6 @@ Settings used for the screenshot were: radius - 100, brightness - 1.00.
 
 [adblock]: https://codeberg.org/ridge/Discord-AdBlock
 [css-icons]: ./src/global/icons.scss
-[css-main]: ./gnome.theme.css
+[css-main]: ./Discourse.theme.css
 [ext-blur-my-shell]: https://github.com/aunetx/blur-my-shell
 [ext-rounded-window-corners]: https://github.com/flexagoon/rounded-window-corners
