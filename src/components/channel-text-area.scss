@@ -20,8 +20,10 @@
 
 .channelTextArea__74017 {
 	--custom-channel-textarea-text-area-height: 34px;
-	background: transparent;
+	background: var(--sidebar_bg_color);
 	border: none;
+	padding: 8px;
+	border-radius: var(--card_radius);
 
 	.editor__1b31f {
 		@include controls.text-field;
