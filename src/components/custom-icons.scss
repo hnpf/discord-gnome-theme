@@ -18,6 +18,28 @@ display:none
   --icon: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZD0iTTggMWE3IDcgMCAxMDAgMTRBNyA3IDAgMDA4IDF6TTYgNWMuNTU5IDAgMS4wMzEuNDczIDEuMDMxIDEuMDMxVjdjMCAuNTU4LS40NzIgMS0xLjAzIDEtLjU2IDAtMS0uNDQyLTEtMXYtLjk2OUM1IDUuNDczIDUuNDQgNSA2IDV6bTQgMGMuNTU5IDAgMSAuNDczIDEgMS4wMzFWN2MwIC41NTgtLjQ0MSAxLTEgMS0uNTU4IDAtMS0uNDQyLTEtMXYtLjk2OUM5IDUuNDczIDkuNDQyIDUgMTAgNXpNMyA5LjA3Yy45OTcuNjM3IDQuMDE3LjkxNyA1IC45MTcuOTg0IDAgMy44MDUuMDUxIDUtLjkxN3YuNWMwIC42OC0xLjc0NCAxLjQwNC01IDEuNDA0LTMuMjU2IDAtNS0uODcyLTUtMS40MDR6IiBmaWxsPSIjNDc0NzQ3Ii8+PC9zdmc+") !important;
 }
 
+/* remove friend profile context */
+
+#user-profile-friend-request-buttons-remove-friend {
+  --icon: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBoZWlnaHQ9IjE2cHgiIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjE2cHgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICA8cGF0aCBkPSJtIDEgNyBoIDE0IHYgMiBoIC0xNCB6IG0gMCAwIiBmaWxsPSIjMmUzNDM2Ii8+Cjwvc3ZnPg==") !important;
+  position: relative !important;
+}
+
+#user-profile-friend-request-buttons-remove-friend::before {
+  content: "" !important;
+  position: absolute !important;
+  inset-inline-start: var(--menu_padding) !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  width: var(--icon-size) !important;
+  height: var(--icon-size) !important;
+  background-color: currentColor !important;
+  mask: var(--icon) !important;
+  mask-position: center !important;
+  mask-repeat: no-repeat !important;
+  mask-size: contain !important;
+}
+
 /* user profile hamburger context menu icons */
 
 #user-profile-overflow-menu-view-main-profile {

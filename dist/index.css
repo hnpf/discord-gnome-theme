@@ -1377,6 +1377,27 @@ html {
   --icon: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZD0iTTggMWE3IDcgMCAxMDAgMTRBNyA3IDAgMDA4IDF6TTYgNWMuNTU5IDAgMS4wMzEuNDczIDEuMDMxIDEuMDMxVjdjMCAuNTU4LS40NzIgMS0xLjAzIDEtLjU2IDAtMS0uNDQyLTEtMXYtLjk2OUM1IDUuNDczIDUuNDQgNSA2IDV6bTQgMGMuNTU5IDAgMSAuNDczIDEgMS4wMzFWN2MwIC41NTgtLjQ0MSAxLTEgMS0uNTU4IDAtMS0uNDQyLTEtMXYtLjk2OUM5IDUuNDczIDkuNDQyIDUgMTAgNXpNMyA5LjA3Yy45OTcuNjM3IDQuMDE3LjkxNyA1IC45MTcuOTg0IDAgMy44MDUuMDUxIDUtLjkxN3YuNWMwIC42OC0xLjc0NCAxLjQwNC01IDEuNDA0LTMuMjU2IDAtNS0uODcyLTUtMS40MDR6IiBmaWxsPSIjNDc0NzQ3Ii8+PC9zdmc+") !important;
 }
 
+/* remove friend profile context */
+#user-profile-friend-request-buttons-remove-friend {
+  --icon: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBoZWlnaHQ9IjE2cHgiIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjE2cHgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICA8cGF0aCBkPSJtIDEgNyBoIDE0IHYgMiBoIC0xNCB6IG0gMCAwIiBmaWxsPSIjMmUzNDM2Ii8+Cjwvc3ZnPg==") !important;
+  position: relative !important;
+}
+
+#user-profile-friend-request-buttons-remove-friend::before {
+  content: "" !important;
+  position: absolute !important;
+  inset-inline-start: var(--menu_padding) !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  width: var(--icon-size) !important;
+  height: var(--icon-size) !important;
+  background-color: currentColor !important;
+  mask: var(--icon) !important;
+  mask-position: center !important;
+  mask-repeat: no-repeat !important;
+  mask-size: contain !important;
+}
+
 /* user profile hamburger context menu icons */
 #user-profile-overflow-menu-view-main-profile {
   --icon: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBoZWlnaHQ9IjE2cHgiIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjE2cHgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICA8cGF0aCBkPSJtIDQgMCBjIDEuMTA1NDY5IDAgMiAwLjg5NDUzMSAyIDIgcyAtMC44OTQ1MzEgMiAtMiAyIHMgLTIgLTAuODk0NTMxIC0yIC0yIHMgMC44OTQ1MzEgLTIgMiAtMiB6IG0gOCAyIGMgMS4xMDU0NjkgMCAyIDAuODk0NTMxIDIgMiBzIC0wLjg5NDUzMSAyIC0yIDIgcyAtMiAtMC44OTQ1MzEgLTIgLTIgcyAwLjg5NDUzMSAtMiAyIC0yIHogbSAtNyAzIGMgMS4zMTI1IDAgMi40MjE4NzUgMC44MzIwMzEgMi44MzIwMzEgMiBoIC03LjY2MDE1NiBjIDAuNDEwMTU2IC0xLjE2Nzk2OSAxLjUxNTYyNSAtMiAyLjgyODEyNSAtMiB6IG0gOCAyIGMgMS42NjAxNTYgMCAzIDEuMzM5ODQ0IDMgMyBjIDAgMC41NTQ2ODggLTAuNDQ1MzEyIDEgLTEgMSBoIC02IGMgLTAuNTU0Njg4IDAgLTEgLTAuNDQ1MzEyIC0xIC0xIGMgMCAtMS42NjAxNTYgMS4zMzk4NDQgLTMgMyAtMyB6IG0gLTkgMSBjIDAuMjU3ODEyIDAgMC41MTE3MTkgMC4wOTc2NTYgMC43MDcwMzEgMC4yOTI5NjkgbCAyIDIgYyAwLjE4MzU5NCAwLjE4NzUgMC4yODkwNjMgMC40NDE0MDYgMC4yODkwNjMgMC43MDcwMzEgaCAwLjAwMzkwNiB2IDEgaCAtMiB2IDEgYyAwLjEwNTQ2OSAwLjgwMDc4MSAwLjUgMSAxIDEgaCA0IGMgMSAwIDEgLTEgMSAtMSBjIDAgLTAuNTUwNzgxIDAuNDQ5MjE5IC0xIDEgLTEgcyAxIDAuNDQ5MjE5IDEgMSBjIDAgMS4zMzIwMzEgLTAuODEyNSAyLjI3MzQzOCAtMS41NTA3ODEgMi42NDQ1MzEgYyAtMC43NDIxODggMC4zNzEwOTQgLTEuNDQ5MjE5IDAuMzU1NDY5IC0xLjQ0OTIxOSAwLjM1NTQ2OSBoIC00IHMgLTAuNzA3MDMxIDAuMDE1NjI1IC0xLjQ0NTMxMiAtMC4zNTU0NjkgYyAtMC43NDIxODggLTAuMzcxMDkzIC0xLjU1NDY4OCAtMS4zMTI1IC0xLjU1NDY4OCAtMi42NDQ1MzEgdiAtMSBoIC0yIHYgLTEgaCAwLjAwNzgxMiBjIC0wLjAwMzkwNiAtMC4yNjU2MjUgMC4xMDE1NjMgLTAuNTE5NTMxIDAuMjg1MTU3IC0wLjcwNzAzMSBsIDIgLTIgYyAwLjE5NTMxMiAtMC4xOTUzMTMgMC40NTMxMjUgLTAuMjkyOTY5IDAuNzA3MDMxIC0wLjI5Mjk2OSB6IG0gMCAwIiBmaWxsPSIjMmUzNDM2Ii8+Cjwvc3ZnPg==") !important;
@@ -3435,7 +3456,7 @@ html {
   position: relative !important;
   width: var(--icon-button-size) !important;
   height: var(--icon-button-size) !important;
-  anchor-name: --tooltip-uzt5frj !important;
+  anchor-name: --tooltip-ukhhhwn !important;
   margin: 0 !important;
   cursor: pointer !important;
 }
@@ -3476,7 +3497,7 @@ html {
   padding: 6px 10px !important;
   display: block !important;
   position: fixed !important;
-  position-anchor: --tooltip-uzt5frj !important;
+  position-anchor: --tooltip-ukhhhwn !important;
   top: calc(anchor(bottom) + var(--spacing)) !important;
   z-index: 999 !important;
   : anchor() !important;
@@ -3640,7 +3661,7 @@ html {
   position: relative !important;
   width: var(--icon-button-size) !important;
   height: var(--icon-button-size) !important;
-  anchor-name: --tooltip-uzt5fsb !important;
+  anchor-name: --tooltip-ukhhhx8 !important;
   color: var(--headerbar_fg_color) !important;
   position: fixed !important;
   position-anchor: --chat-topic !important;
@@ -3686,7 +3707,7 @@ html {
   padding: 6px 10px !important;
   display: block !important;
   position: fixed !important;
-  position-anchor: --tooltip-uzt5fsb !important;
+  position-anchor: --tooltip-ukhhhx8 !important;
   top: calc(anchor(bottom) + var(--spacing)) !important;
   z-index: 999 !important;
   : anchor() !important;
@@ -3771,7 +3792,7 @@ html {
   position: relative !important;
   width: var(--icon-button-size) !important;
   height: var(--icon-button-size) !important;
-  anchor-name: --tooltip-uzt5fsx !important;
+  anchor-name: --tooltip-ukhhhy8 !important;
   color: var(--headerbar_fg_color) !important;
   flex: unset !important;
   app-region: no-drag !important;
@@ -3813,7 +3834,7 @@ html {
   padding: 6px 10px !important;
   display: block !important;
   position: fixed !important;
-  position-anchor: --tooltip-uzt5fsx !important;
+  position-anchor: --tooltip-ukhhhy8 !important;
   top: calc(anchor(bottom) + var(--spacing)) !important;
   z-index: 999 !important;
   left: anchor(left) !important;
@@ -3867,7 +3888,7 @@ html {
   position: relative !important;
   width: var(--icon-button-size) !important;
   height: var(--icon-button-size) !important;
-  anchor-name: --tooltip-uzt5ftn !important;
+  anchor-name: --tooltip-ukhhhz5 !important;
   flex-shrink: 0 !important;
   app-region: no-drag !important;
   pointer-events: all !important;
@@ -3909,7 +3930,7 @@ html {
   padding: 6px 10px !important;
   display: block !important;
   position: fixed !important;
-  position-anchor: --tooltip-uzt5ftn !important;
+  position-anchor: --tooltip-ukhhhz5 !important;
   top: calc(anchor(bottom) + var(--spacing)) !important;
   z-index: 999 !important;
   right: anchor(right) !important;
@@ -7900,7 +7921,7 @@ html {
   position: relative !important;
   width: var(--icon-button-size) !important;
   height: var(--icon-button-size) !important;
-  anchor-name: --tooltip-uzt5ftr !important;
+  anchor-name: --tooltip-ukhhhzk !important;
   app-region: no-drag !important;
 }
 .page__91dc3 .titleContainer_e29cd7 .title_e29cd7:hover {
@@ -7940,7 +7961,7 @@ html {
   padding: 6px 10px !important;
   display: block !important;
   position: fixed !important;
-  position-anchor: --tooltip-uzt5ftr !important;
+  position-anchor: --tooltip-ukhhhzk !important;
   bottom: calc(anchor(top) + var(--spacing)) !important;
   z-index: 999 !important;
   : anchor() !important;
@@ -8128,7 +8149,7 @@ html {
   position: relative !important;
   width: var(--icon-button-size) !important;
   height: var(--icon-button-size) !important;
-  anchor-name: --tooltip-uzt5fub !important;
+  anchor-name: --tooltip-ukhhi0g !important;
   margin: 0 !important;
   min-height: unset !important;
   justify-content: center !important;
@@ -8170,7 +8191,7 @@ html {
   padding: 6px 10px !important;
   display: block !important;
   position: fixed !important;
-  position-anchor: --tooltip-uzt5fub !important;
+  position-anchor: --tooltip-ukhhi0g !important;
   top: calc(anchor(bottom) + var(--spacing)) !important;
   z-index: 999 !important;
   : anchor() !important;
@@ -9737,7 +9758,7 @@ html {
   position: relative !important;
   width: var(--icon-button-size) !important;
   height: var(--icon-button-size) !important;
-  anchor-name: --tooltip-uzt5fuv !important;
+  anchor-name: --tooltip-ukhhi0o !important;
   font-size: 0 !important;
   border-radius: 50% !important;
   margin: auto !important;
@@ -9780,7 +9801,7 @@ html {
   padding: 6px 10px !important;
   display: block !important;
   position: fixed !important;
-  position-anchor: --tooltip-uzt5fuv !important;
+  position-anchor: --tooltip-ukhhi0o !important;
   left: calc(anchor(right) + var(--spacing)) !important;
   z-index: 999 !important;
   top: calc(anchor(top) + (var(--icon-button-size) - 30px) / 2) !important;
