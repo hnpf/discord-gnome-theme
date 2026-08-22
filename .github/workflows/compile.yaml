@@ -25,18 +25,3 @@ jobs:
 
       - name: Compile
         run: bun run build
-
-      - name: Commit
-        run: |
-          git checkout -b dist
-          git add -f dist
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "$(git log -1 --pretty=format:%B)"
-
-      - name: Push
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          force: true
-          branch: dist
