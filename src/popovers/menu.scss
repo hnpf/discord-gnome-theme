@@ -22,6 +22,7 @@
 .groupLabel_c1e9c4 {
 	@include popover.title;
 
+	padding: 2px var(--menu_padding);
 	margin-inline-start: calc(var(--spacing) + popover.$icon-size - 2px);
 }
 
@@ -30,9 +31,17 @@
 }
 
 .iconContainer_c1e9c4 {
+	position: relative;
+	width: var(--icon-size);
+	height: var(--icon-size);
+	flex-shrink: 0;
+	margin-inline-end: var(--spacing);
+
 	:where(& > *) {
-		inset-inline-start: var(--menu_padding);
 		position: absolute;
+		inset: 0;
+		width: 100%;
+		height: 100%;
 	}
 
 	.checkboxIndicator__714a9 {
@@ -59,11 +68,6 @@
 		color: var(--popover_fg_color);
 	}
 
-	.vc-icon,
-	.iconContainerLeft_c1e9c4 {
-		display: none;
-	}
-
 	// sliders
 	&.hideInteraction_c1e9c4 {
 		height: unset;
@@ -71,6 +75,8 @@
 	}
 
 	.labelContainer_c1e9c4 {
+		display: flex;
+		align-items: center;
 		padding: 0;
 	}
 
@@ -81,6 +87,12 @@
 	.sliderContainer__65039 {
 		padding: 0;
 	}
+}
+
+.menuItemContent_ce8328,
+.item_c1e9c4 > div {
+	display: flex;
+	align-items: center;
 }
 
 .label_c1e9c4 {
