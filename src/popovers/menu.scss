@@ -67,6 +67,13 @@
 		color: var(--popover_fg_color);
 	}
 
+	.iconContainer_c1e9c4:not(:has(.checkboxOption__714a9, .standaloneRadioIndicator__64e61, .checkboxIndicator__714a9)),
+	.icon_c1e9c4,
+	.iconContainerLeft_c1e9c4,
+	.vc-icon {
+		display: none;
+	}
+
 	// sliders
 	&.hideInteraction_c1e9c4 {
 		height: unset;
