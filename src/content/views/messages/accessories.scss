@@ -87,13 +87,23 @@
 
 // D*scord put an !important here, el mao
 .visual-refresh .buttonsInner__5126c {
-	@include controls.osd-like-button-group;
-
-	border: none;
-	box-shadow: none;
+	background-color: var(--popover_bg_color);
+	color: var(--popover_fg_color);
+	border-radius: 999px;
+	padding: 2px;
+	border: 1px solid rgba(0, 0, 0, 0.14);
+	box-shadow: var(--popover_shadow);
 
 	.hoverBarButton_f84418 {
-		@include controls.osd-like-button;
+		background-color: transparent;
+
+		&:hover {
+			background-color: var(--hover_color);
+		}
+
+		&:active {
+			background-color: var(--active_color);
+		}
 
 		// :has is for reactions
 		&:is([aria-label="Copy Message ID"], :has(> .buttonContent_f84418)) {
