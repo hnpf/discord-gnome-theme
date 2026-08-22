@@ -36,6 +36,11 @@ For local installation, put [Discourse.theme.css][css-main] in `~/.config/veskto
 
 ## Configuration
 
+### [Emoji Replace][emoji-replace] allows you to replace discord's with emojis from a different provider (eg. apple, google, facebook...)
+1. Simply edit Discourse.theme.css
+2. Follow instructions for changing default emoji provider.
+3. That's it! 
+
 ### Nitro themes
 
 <picture>
@@ -85,3 +90,4 @@ Settings used for the screenshot were: radius - 100, brightness - 1.00.
 [css-main]: ./Discourse.theme.css
 [ext-blur-my-shell]: https://github.com/aunetx/blur-my-shell
 [ext-rounded-window-corners]: https://github.com/flexagoon/rounded-window-corners
+[emoji-replace]: https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/EmojiReplace/

@@ -3354,7 +3354,7 @@ html {
   position: relative !important;
   width: var(--icon-button-size) !important;
   height: var(--icon-button-size) !important;
-  anchor-name: --tooltip-ukhsmlz !important;
+  anchor-name: --tooltip-uehe8wq !important;
   margin: 0 !important;
   cursor: pointer !important;
 }
@@ -3395,7 +3395,7 @@ html {
   padding: 6px 10px !important;
   display: block !important;
   position: fixed !important;
-  position-anchor: --tooltip-ukhsmlz !important;
+  position-anchor: --tooltip-uehe8wq !important;
   top: calc(anchor(bottom) + var(--spacing)) !important;
   z-index: 999 !important;
   : anchor() !important;
@@ -3559,7 +3559,7 @@ html {
   position: relative !important;
   width: var(--icon-button-size) !important;
   height: var(--icon-button-size) !important;
-  anchor-name: --tooltip-ukhsmm4 !important;
+  anchor-name: --tooltip-uehe8x1 !important;
   color: var(--headerbar_fg_color) !important;
   position: fixed !important;
   position-anchor: --chat-topic !important;
@@ -3605,7 +3605,7 @@ html {
   padding: 6px 10px !important;
   display: block !important;
   position: fixed !important;
-  position-anchor: --tooltip-ukhsmm4 !important;
+  position-anchor: --tooltip-uehe8x1 !important;
   top: calc(anchor(bottom) + var(--spacing)) !important;
   z-index: 999 !important;
   : anchor() !important;
@@ -3690,7 +3690,7 @@ html {
   position: relative !important;
   width: var(--icon-button-size) !important;
   height: var(--icon-button-size) !important;
-  anchor-name: --tooltip-ukhsmmr !important;
+  anchor-name: --tooltip-uehe8xt !important;
   color: var(--headerbar_fg_color) !important;
   flex: unset !important;
   app-region: no-drag !important;
@@ -3732,7 +3732,7 @@ html {
   padding: 6px 10px !important;
   display: block !important;
   position: fixed !important;
-  position-anchor: --tooltip-ukhsmmr !important;
+  position-anchor: --tooltip-uehe8xt !important;
   top: calc(anchor(bottom) + var(--spacing)) !important;
   z-index: 999 !important;
   left: anchor(left) !important;
@@ -3786,7 +3786,7 @@ html {
   position: relative !important;
   width: var(--icon-button-size) !important;
   height: var(--icon-button-size) !important;
-  anchor-name: --tooltip-ukhsmnc !important;
+  anchor-name: --tooltip-uehe8yn !important;
   flex-shrink: 0 !important;
   app-region: no-drag !important;
   pointer-events: all !important;
@@ -3828,7 +3828,7 @@ html {
   padding: 6px 10px !important;
   display: block !important;
   position: fixed !important;
-  position-anchor: --tooltip-ukhsmnc !important;
+  position-anchor: --tooltip-uehe8yn !important;
   top: calc(anchor(bottom) + var(--spacing)) !important;
   z-index: 999 !important;
   right: anchor(right) !important;
@@ -7819,7 +7819,7 @@ html {
   position: relative !important;
   width: var(--icon-button-size) !important;
   height: var(--icon-button-size) !important;
-  anchor-name: --tooltip-ukhsmo6 !important;
+  anchor-name: --tooltip-uehe8zc !important;
   app-region: no-drag !important;
 }
 .page__91dc3 .titleContainer_e29cd7 .title_e29cd7:hover {
@@ -7859,7 +7859,7 @@ html {
   padding: 6px 10px !important;
   display: block !important;
   position: fixed !important;
-  position-anchor: --tooltip-ukhsmo6 !important;
+  position-anchor: --tooltip-uehe8zc !important;
   bottom: calc(anchor(top) + var(--spacing)) !important;
   z-index: 999 !important;
   : anchor() !important;
@@ -8047,7 +8047,7 @@ html {
   position: relative !important;
   width: var(--icon-button-size) !important;
   height: var(--icon-button-size) !important;
-  anchor-name: --tooltip-ukhsmox !important;
+  anchor-name: --tooltip-uehe8zv !important;
   margin: 0 !important;
   min-height: unset !important;
   justify-content: center !important;
@@ -8089,7 +8089,7 @@ html {
   padding: 6px 10px !important;
   display: block !important;
   position: fixed !important;
-  position-anchor: --tooltip-ukhsmox !important;
+  position-anchor: --tooltip-uehe8zv !important;
   top: calc(anchor(bottom) + var(--spacing)) !important;
   z-index: 999 !important;
   : anchor() !important;
@@ -9656,7 +9656,7 @@ html {
   position: relative !important;
   width: var(--icon-button-size) !important;
   height: var(--icon-button-size) !important;
-  anchor-name: --tooltip-ukhsmpg !important;
+  anchor-name: --tooltip-uehe8zz !important;
   font-size: 0 !important;
   border-radius: 50% !important;
   margin: auto !important;
@@ -9699,7 +9699,7 @@ html {
   padding: 6px 10px !important;
   display: block !important;
   position: fixed !important;
-  position-anchor: --tooltip-ukhsmpg !important;
+  position-anchor: --tooltip-uehe8zz !important;
   left: calc(anchor(right) + var(--spacing)) !important;
   z-index: 999 !important;
   top: calc(anchor(top) + (var(--icon-button-size) - 30px) / 2) !important;

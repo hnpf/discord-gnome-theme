@@ -4,6 +4,31 @@
  * @author ricewind (upstream), hnpf (fork)
  */
 
+
+/* Emoji Replace (DEFAULT USING GOOGLE!) */
+/* Follow https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/EmojiReplace/ for direct instructions. */
+/* In short, simply swap the marked word in the import url down below with a supported provider listed below */
+/* The name of the provider is CASE SENSITIVE, meaning you have to write it exactly like it's written below. */
+/* 	Correct: Apple
+	  False: apple, APPLE, aPpLe
+
+	Supported Providers:
+		→ Apple
+		→ BlobMoji
+		→ Facebook
+		→ Google
+		→ Huawei
+		→ JoyPixels
+		→ Microsoft
+		→ Microsoft-3D
+		→ OpenMoji
+		→ Samsung
+		→ Samsung-Old
+		→ Toss
+		→ WhatsApp
+*/
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css);
+
 /* discord adblock */
 @import url(https://codeberg.org/ridge/Discord-Adblock/raw/branch/main/discord-adblock.css);
 
