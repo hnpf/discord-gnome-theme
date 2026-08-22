@@ -30,17 +30,9 @@
 }
 
 .iconContainer_c1e9c4 {
-	position: relative;
-	width: var(--icon-size);
-	height: var(--icon-size);
-	flex-shrink: 0;
-	margin-inline-end: var(--spacing);
-
 	:where(& > *) {
+		inset-inline-start: var(--menu_padding);
 		position: absolute;
-		inset: 0;
-		width: 100%;
-		height: 100%;
 	}
 
 	.checkboxIndicator__714a9 {
@@ -67,10 +59,8 @@
 		color: var(--popover_fg_color);
 	}
 
-	.iconContainer_c1e9c4:not(:has(.checkboxOption__714a9, .standaloneRadioIndicator__64e61, .checkboxIndicator__714a9)),
-	.icon_c1e9c4,
-	.iconContainerLeft_c1e9c4,
-	.vc-icon {
+	.vc-icon,
+	.iconContainerLeft_c1e9c4 {
 		display: none;
 	}
 
@@ -81,8 +71,6 @@
 	}
 
 	.labelContainer_c1e9c4 {
-		display: flex;
-		align-items: center;
 		padding: 0;
 	}
 
@@ -93,12 +81,6 @@
 	.sliderContainer__65039 {
 		padding: 0;
 	}
-}
-
-.menuItemContent_ce8328,
-.item_c1e9c4 > div {
-	display: flex;
-	align-items: center;
 }
 
 .label_c1e9c4 {
