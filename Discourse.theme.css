@@ -8,7 +8,7 @@
 @import url(https://codeberg.org/ridge/Discord-Adblock/raw/branch/main/discord-adblock.css);
 
 /* theme css import */
-@import "https://raw.githubusercontent.com/hnpf/discord-gnome-theme/dist/dist/index.css";
+@import "https://raw.githubusercontent.com/hnpf/discord-gnome-theme/master/dist/index.css";
 
 :root {
 	/* Window controls */

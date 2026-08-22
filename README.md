@@ -32,7 +32,7 @@ Copy the following into the text box located in Settings > Themes > Online Theme
 https://raw.githubusercontent.com/hnpf/discord-gnome-theme/master/Discourse.theme.css
 ```
 
-For local installation, put [Discourse.theme.css][css-main] in `~/.config/vesktop/themes`. It will **auto-update**. the compiled CSS is fetched live from the `dist` branch on each load.
+For local installation, put [Discourse.theme.css][css-main] in `~/.config/vesktop/themes`. It will **auto-update**. the compiled CSS is fetched live from GitHub on each load.
 
 ## Configuration
 
