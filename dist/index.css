@@ -3456,7 +3456,7 @@ html {
   position: relative !important;
   width: var(--icon-button-size) !important;
   height: var(--icon-button-size) !important;
-  anchor-name: --tooltip-ur7kcop !important;
+  anchor-name: --tooltip-u0xf42m !important;
   margin: 0 !important;
   cursor: pointer !important;
 }
@@ -3497,7 +3497,7 @@ html {
   padding: 6px 10px !important;
   display: block !important;
   position: fixed !important;
-  position-anchor: --tooltip-ur7kcop !important;
+  position-anchor: --tooltip-u0xf42m !important;
   top: calc(anchor(bottom) + var(--spacing)) !important;
   z-index: 999 !important;
   : anchor() !important;
@@ -3661,7 +3661,7 @@ html {
   position: relative !important;
   width: var(--icon-button-size) !important;
   height: var(--icon-button-size) !important;
-  anchor-name: --tooltip-ur7kcpe !important;
+  anchor-name: --tooltip-u0xf43b !important;
   color: var(--headerbar_fg_color) !important;
   position: fixed !important;
   position-anchor: --chat-topic !important;
@@ -3707,7 +3707,7 @@ html {
   padding: 6px 10px !important;
   display: block !important;
   position: fixed !important;
-  position-anchor: --tooltip-ur7kcpe !important;
+  position-anchor: --tooltip-u0xf43b !important;
   top: calc(anchor(bottom) + var(--spacing)) !important;
   z-index: 999 !important;
   : anchor() !important;
@@ -3792,7 +3792,7 @@ html {
   position: relative !important;
   width: var(--icon-button-size) !important;
   height: var(--icon-button-size) !important;
-  anchor-name: --tooltip-ur7kcpt !important;
+  anchor-name: --tooltip-u0xf44a !important;
   color: var(--headerbar_fg_color) !important;
   flex: unset !important;
   app-region: no-drag !important;
@@ -3834,7 +3834,7 @@ html {
   padding: 6px 10px !important;
   display: block !important;
   position: fixed !important;
-  position-anchor: --tooltip-ur7kcpt !important;
+  position-anchor: --tooltip-u0xf44a !important;
   top: calc(anchor(bottom) + var(--spacing)) !important;
   z-index: 999 !important;
   left: anchor(left) !important;
@@ -3888,7 +3888,7 @@ html {
   position: relative !important;
   width: var(--icon-button-size) !important;
   height: var(--icon-button-size) !important;
-  anchor-name: --tooltip-ur7kcq1 !important;
+  anchor-name: --tooltip-u0xf44t !important;
   flex-shrink: 0 !important;
   app-region: no-drag !important;
   pointer-events: all !important;
@@ -3930,7 +3930,7 @@ html {
   padding: 6px 10px !important;
   display: block !important;
   position: fixed !important;
-  position-anchor: --tooltip-ur7kcq1 !important;
+  position-anchor: --tooltip-u0xf44t !important;
   top: calc(anchor(bottom) + var(--spacing)) !important;
   z-index: 999 !important;
   right: anchor(right) !important;
@@ -5283,8 +5283,7 @@ html {
 }
 
 .container__040f0 {
-  padding: 0 !important;
-  inset-block-start: calc(var(--icon-button-size) * -1 - 2px * 2) !important;
+  inset-block-start: -16px !important;
 }
 
 .container__4d95d,
@@ -7921,7 +7920,7 @@ html {
   position: relative !important;
   width: var(--icon-button-size) !important;
   height: var(--icon-button-size) !important;
-  anchor-name: --tooltip-ur7kcq8 !important;
+  anchor-name: --tooltip-u0xf44y !important;
   app-region: no-drag !important;
 }
 .page__91dc3 .titleContainer_e29cd7 .title_e29cd7:hover {
@@ -7961,7 +7960,7 @@ html {
   padding: 6px 10px !important;
   display: block !important;
   position: fixed !important;
-  position-anchor: --tooltip-ur7kcq8 !important;
+  position-anchor: --tooltip-u0xf44y !important;
   bottom: calc(anchor(top) + var(--spacing)) !important;
   z-index: 999 !important;
   : anchor() !important;
@@ -8149,7 +8148,7 @@ html {
   position: relative !important;
   width: var(--icon-button-size) !important;
   height: var(--icon-button-size) !important;
-  anchor-name: --tooltip-ur7kcqm !important;
+  anchor-name: --tooltip-u0xf45i !important;
   margin: 0 !important;
   min-height: unset !important;
   justify-content: center !important;
@@ -8191,7 +8190,7 @@ html {
   padding: 6px 10px !important;
   display: block !important;
   position: fixed !important;
-  position-anchor: --tooltip-ur7kcqm !important;
+  position-anchor: --tooltip-u0xf45i !important;
   top: calc(anchor(bottom) + var(--spacing)) !important;
   z-index: 999 !important;
   : anchor() !important;
@@ -9758,7 +9757,7 @@ html {
   position: relative !important;
   width: var(--icon-button-size) !important;
   height: var(--icon-button-size) !important;
-  anchor-name: --tooltip-ur7kcqu !important;
+  anchor-name: --tooltip-u0xf45z !important;
   font-size: 0 !important;
   border-radius: 50% !important;
   margin: auto !important;
@@ -9801,7 +9800,7 @@ html {
   padding: 6px 10px !important;
   display: block !important;
   position: fixed !important;
-  position-anchor: --tooltip-ur7kcqu !important;
+  position-anchor: --tooltip-u0xf45z !important;
   left: calc(anchor(right) + var(--spacing)) !important;
   z-index: 999 !important;
   top: calc(anchor(top) + (var(--icon-button-size) - 30px) / 2) !important;

@@ -139,11 +139,7 @@
 
 // Message actions
 .container__040f0 {
-	padding: 0;
-
-	inset-block-start: calc(
-		var(--icon-button-size) * -1 - #{controls.$osd-like-padding} * 2
-	);
+	inset-block-start: -16px;
 }
 
 // Fancy codeblock (modal included, since it's one component)
